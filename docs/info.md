@@ -9,11 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project generates VGA graphics using Verilog.
+The design uses horizontal and vertical synchronization signals to create a valid VGA output.
+The pixel position is processed to generate the displayed pattern on the screen.
 
 ## How to test
 
-Explain how to use your project
+Connect the VGA output to a compatible display.
+After programming the design, the generated graphics should appear on the screen.
+The user inputs can be used if the design includes interactive features.
 
 ## External hardware
 
